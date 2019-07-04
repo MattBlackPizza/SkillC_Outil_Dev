@@ -103,6 +103,9 @@ nav {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  background-image: url('../assets/shapes/nav/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .span-menu {
