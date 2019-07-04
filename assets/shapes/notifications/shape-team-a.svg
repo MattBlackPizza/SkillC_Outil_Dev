@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.71875%" y1="-26.09375%" x2="66.2114836%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E50008" offset="0%"></stop>
+            <stop stop-color="#FDEE00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M92,137.45614 C92,133.807018 88.6521739,131 85,131 L85,131 C81.3478261,131 78,133.807018 78,137.45614 C78,141.105263 81.9565217,144.754386 85,147 L85,147 L85,147 L85,147 C88.0434783,144.754386 92,141.105263 92,137.45614" id="path-2"></path>
+        <filter x="-153.6%" y="-71.9%" width="407.1%" height="370.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="SkillCorner_Produit_TailleStandard_Event_1a" transform="translate(-67.000000, -130.000000)">
+            <g id="Fill-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <path stroke="#FFFFFF" stroke-width="1.5" d="M92.75,137.45614 C92.75,140.869422 89.8668618,144.341071 85.4452913,147.603503 L85,147.932059 L84.5547087,147.603503 C80.1331382,144.341071 77.25,140.869422 77.25,137.45614 C77.25,133.4681 80.8449233,130.25 85,130.25 C89.1550767,130.25 92.75,133.4681 92.75,137.45614 Z" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

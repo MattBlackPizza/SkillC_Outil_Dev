@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OUTIL/Taille-MAX/LIVE_3D_View" transform="translate(-10.000000, -21.000000)" fill-rule="nonzero">
+            <g id="Match_Info" transform="translate(0.000000, 11.000000)">
+                <g id="Group-4" transform="translate(11.000000, 11.000000)">
+                    <circle id="Oval" stroke="#42B760" stroke-width="2" cx="9" cy="9" r="9"></circle>
+                    <path d="M8.99999938,6.72500246 C8.22499955,6.72500246 7.57499968,6.07500259 7.57499968,5.32500275 C7.57499968,4.52500292 8.22499955,3.90000305 8.99999938,3.90000305 C9.77499922,3.90000305 10.4249991,4.52500292 10.4249991,5.32500275 C10.4249991,6.07500259 9.77499922,6.72500246 8.99999938,6.72500246 Z M7.82499963,13.5000021 L7.82499963,8.50000209 L10.1749991,8.50000209 L10.1749991,13.5000021 L7.82499963,13.5000021 Z" id="i" fill="#42B760"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

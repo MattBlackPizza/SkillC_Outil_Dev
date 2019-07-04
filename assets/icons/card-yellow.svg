@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="18px" viewBox="0 0 12 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>carton/jaune copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="57.4105894%" id="linearGradient-1">
+            <stop stop-color="#FFC143" offset="0%"></stop>
+            <stop stop-color="#FFAB00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkillCorner_Produit_TailleMax_Stats" transform="translate(-392.000000, -205.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-3" transform="translate(51.000000, 32.000000)">
+                <g id="Group">
+                    <g id="Group-5" transform="translate(273.000000, 173.000000)">
+                        <rect id="carton/jaune-copy-5" x="68" y="0" width="12" height="18" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

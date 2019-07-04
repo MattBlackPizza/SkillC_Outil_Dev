@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.71875%" y1="-26.09375%" x2="66.2114836%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00FFFD" offset="0%"></stop>
+            <stop stop-color="#00A2FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M14,6.45614035 C14,2.80701754 10.6521739,0 7,0 L7,0 C3.34782609,0 0,2.80701754 0,6.45614035 C0,10.1052632 3.95652174,13.754386 7,16 L7,16 L7,16 L7,16 C10.0434783,13.754386 14,10.1052632 14,6.45614035" id="path-2"></path>
+        <filter x="-153.6%" y="-71.9%" width="407.1%" height="370.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="SkillCorner_Produit_TailleStandard_Event_1b" transform="translate(-63.000000, -127.000000)">
+            <g id="Group-3" transform="translate(74.000000, 128.000000)">
+                <g id="Group-2">
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="1.5" d="M14.75,6.45614035 C14.75,9.86942243 11.8668618,13.3410708 7.4452913,16.6035028 L7,16.9320586 L6.5547087,16.6035028 C2.13313816,13.3410708 -0.75,9.86942243 -0.75,6.45614035 C-0.75,2.46810033 2.84492334,-0.75 7,-0.75 C11.1550767,-0.75 14.75,2.46810033 14.75,6.45614035 Z" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

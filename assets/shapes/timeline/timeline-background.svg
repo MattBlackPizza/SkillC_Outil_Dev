@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="286px" height="50px" viewBox="0 0 286 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>grid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,5" stroke-linecap="round" stroke-linejoin="round">
+        <g id="grid" style="mix-blend-mode: overlay;" stroke="#4677C3">
+            <path d="M0,37.5 L290,37.5" id="Line"></path>
+            <path d="M0,43.5 L290,43.5" id="Line"></path>
+            <path d="M0,49.5 L290,49.5" id="Line"></path>
+            <path d="M0,15.5 L290,15.5" id="Line"></path>
+            <path d="M0,31.5 L290,31.5" id="Line"></path>
+            <path d="M0,10.5 L290,10.5" id="Line"></path>
+            <path d="M0,5.5 L290,5.5" id="Line"></path>
+            <path d="M0,0.5 L290,0.5" id="Line"></path>
+            <path d="M0,20.5 L290,20.5" id="Line"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>football</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.318182,1.000000),rotate(90.000000),scale(1.000000,3.077808),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#071A37" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#071A37" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="34.4251646%" cy="20.2849438%" fx="34.4251646%" fy="20.2849438%" r="86.8577063%" gradientTransform="translate(0.344252,0.202849),scale(0.900000,1.000000),rotate(56.971548),translate(-0.344252,-0.202849)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#162C4E" stop-opacity="0.62691215" offset="100%"></stop>
+        </radialGradient>
+        <ellipse id="path-3" cx="5" cy="4.5" rx="5" ry="4.5"></ellipse>
+        <radialGradient cx="27.6895687%" cy="6.53000822%" fx="27.6895687%" fy="6.53000822%" r="63.1913058%" gradientTransform="translate(0.276896,0.065300),scale(0.819643,1.000000),rotate(88.146739),translate(-0.276896,-0.065300)" id="radialGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.25551792" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M4.97610022,2.68145628 L6.89158758,3.91298187 L6.15993651,5.90563214 L3.79226393,5.90563214 L3.06061286,3.91298187 L4.97610022,2.68145628 Z M4.97610022,1.43208793 L3.06061286,0.816325134 L3.79226393,-0.18 L6.15993651,-0.18 L6.89158758,0.816325134 L4.97610022,1.43208793 Z M2.86274075,7.08009178 L4.17368071,8.46088278 L2.97710469,9 L0.926640081,7.95240176 L0.855959281,6.76583322 L2.86274075,7.08009178 Z M7.08945969,7.08009178 L9.09624116,6.76583322 L9.02556036,7.95240176 L6.97509575,9 L5.77851973,8.46088278 L7.08945969,7.08009178 Z M1.51676842,3.6973845 L0.207756028,5.07960679 L-0.6,4.13043829 L0.209791717,2.16159762 L1.51802655,1.89395566 L1.51676842,3.6973845 Z M8.48323158,3.6973845 L8.48197345,1.89395566 L9.79020828,2.16159762 L10.6,4.13043829 L9.79224397,5.07960679 L8.48323158,3.6973845 Z" id="path-6"></path>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkillCorner_Produit_TailleStandard_Live3D_Scoreboard" transform="translate(-226.000000, -127.000000)">
+            <g id="Players" transform="translate(57.000000, 67.000000)">
+                <g id="OUTIL/Ball" transform="translate(169.000000, 60.000000)">
+                    <ellipse id="Oval" fill="url(#radialGradient-1)" cx="5.5" cy="9.25" rx="5.5" ry="1.75"></ellipse>
+                    <g id="football_3D" transform="translate(0.550000, 0.000000)" stroke-width="1">
+                        <g id="Group-3">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Oval">
+                                <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                                <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                            </g>
+                            <g id="Combined-Shape" mask="url(#mask-4)">
+                                <use fill="#071A37" xlink:href="#path-6"></use>
+                                <use fill="url(#radialGradient-5)" xlink:href="#path-6"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

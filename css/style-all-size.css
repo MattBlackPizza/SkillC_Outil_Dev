@@ -1,0 +1,67 @@
+.show {display: initial !important;}
+.hide {display: none !important;}
+.yellow {background-image: linear-gradient(180deg, #FFC143 0%, #FFAB00 57%) !important;}
+.red {background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;}
+
+.color-team-a {
+  background-image: linear-gradient(137deg, #E50008 0%, #FDEE00 100%) !important;
+}
+
+.color-team-b {
+  background-image: linear-gradient(147deg, #00FFFD 0%, #00A1FF 100%);
+}
+
+.card-red::after {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 12px;
+  width: 10px;
+  background-image: url('../assets/icons/card-red.svg');
+  margin-left: 5px;
+  position: absolute;
+  bottom: 3px;
+}
+
+.card-yellow::after {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 12px;
+  width: 10px;
+  background-image: url('../assets/icons/card-yellow.svg');
+  margin-left: 5px;
+  position: absolute;
+  bottom: 3px;
+}
+
+.picto-goal::after {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 14px;
+  width: 11px;
+  background-image: url('../assets/icons/icon-goal.svg');
+  margin-left: 5px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.picto-change::after {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 16px;
+  width: 100%;
+  background-image: url('../assets/icons/icon-change.svg');
+  margin-left: 5px;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}

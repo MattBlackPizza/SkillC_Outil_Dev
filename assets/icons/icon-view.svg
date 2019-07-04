@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="15px" viewBox="0 0 26 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_live</title>
+    <desc>Created with Sketch.</desc>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="SkillCorner_Produit_TailleMax_Live3D" transform="translate(-10.000000, -22.000000)" stroke="#42B760" stroke-width="1.5">
+            <g id="Group" transform="translate(0.000000, 11.000000)">
+                <g id="Infos">
+                    <g id="icon_live" transform="translate(12.000000, 12.000000)">
+                        <path d="M2.1644177,0.166666667 L19.8355823,0.166666667 L22.9605823,12.6666667 L-0.960582305,12.6666667 L2.1644177,0.166666667 Z" id="field" fill-rule="nonzero"></path>
+                        <polyline id="penalty" fill-rule="nonzero" transform="translate(20.166667, 5.958333) scale(-1, 1) translate(-20.166667, -5.958333) " points="19.3055556 3.66666667 22 3.66666667 21.0277778 8.25 18.3333333 8.25"></polyline>
+                        <polyline id="penalty" fill-rule="nonzero" points="0.972222222 3.66666667 3.66666667 3.66666667 2.69444444 8.25 3.4142442e-14 8.25"></polyline>
+                        <path d="M11.4583333,-1.50102153e-13 L11.4583333,12.8333333" id="center"></path>
+                        <ellipse id="circle" cx="11.4583333" cy="6.41666667" rx="3.5" ry="2.125"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

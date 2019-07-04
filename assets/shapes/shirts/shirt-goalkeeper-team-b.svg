@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Path 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="72.4446615%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFEB7A" offset="0%"></stop>
+            <stop stop-color="#FFDE00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,2.27272727 L9.375,0 C10.5615493,1.72588984 12.9225477,2.16311177 14.6484375,0.9765625 C15.0309879,0.713559125 15.3619966,0.382550363 15.625,1.77635684e-15 L15.625,0 L25,2.27272727 L25,10.2272727 L20.4412669,10.2272727 L20.4412669,25 L4.55873309,25 L4.55873309,10.2272727 L0,10.2272727 L0,2.27272727 Z" id="path-2"></path>
+        <filter x="-28.0%" y="-20.0%" width="156.0%" height="156.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkillCorner_Produit_TailleMax_Compos" transform="translate(-445.000000, -122.000000)">
+            <g id="OUTILS/player_team_1-Copy-3" transform="translate(449.000000, 124.000000)">
+                <g id="Path-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

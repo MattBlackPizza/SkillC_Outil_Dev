@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>TIMELINE/goal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="34.4251646%" cy="20.2849438%" fx="34.4251646%" fy="20.2849438%" r="91.4457371%" gradientTransform="translate(0.344252,0.202849),scale(1.000000,0.900000),rotate(62.229059),translate(-0.344252,-0.202849)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#162C4E" stop-opacity="0.62691215" offset="100%"></stop>
+        </radialGradient>
+        <ellipse id="path-2" cx="4.5" cy="5" rx="4.5" ry="5"></ellipse>
+        <radialGradient cx="27.6895687%" cy="6.53000822%" fx="27.6895687%" fy="6.53000822%" r="63.9320828%" gradientTransform="translate(0.276896,0.065300),scale(1.000000,0.988235),rotate(88.498678),translate(-0.276896,-0.065300)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.25551792" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M4.4784902,2.97939587 L6.20242882,4.34775764 L5.54394286,6.56181349 L3.41303753,6.56181349 L2.75455157,4.34775764 L4.4784902,2.97939587 Z M4.4784902,1.59120881 L2.75455157,0.907027927 L3.41303753,-0.2 L5.54394286,-0.2 L6.20242882,0.907027927 L4.4784902,1.59120881 Z M2.57646668,7.86676864 L3.75631264,9.40098087 L2.67939422,10 L0.833976073,8.83600195 L0.770363353,7.51759247 L2.57646668,7.86676864 Z M6.38051372,7.86676864 L8.18661704,7.51759247 L8.12300432,8.83600195 L6.27758618,10 L5.20066776,9.40098087 L6.38051372,7.86676864 Z M1.36509158,4.108205 L0.186980425,5.64400754 L-0.54,4.58937588 L0.188812545,2.40177513 L1.36622389,2.10439517 L1.36509158,4.108205 Z M7.63490842,4.108205 L7.63377611,2.10439517 L8.81118745,2.40177513 L9.54,4.58937588 L8.81301958,5.64400754 L7.63490842,4.108205 Z" id="path-5"></path>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkillCorner_Produit_TailleMax_MatchSheet" transform="translate(-106.000000, -247.000000)">
+            <g id="TIMELINE/goal" transform="translate(106.000000, 244.000000)">
+                <ellipse id="Oval" stroke="#071A37" fill="#071A37" cx="6" cy="8.84" rx="5.16666667" ry="5.26"></ellipse>
+                <g id="football_3D" transform="translate(1.333333, 4.080000)">
+                    <g id="Group-3">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Oval">
+                            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Combined-Shape" mask="url(#mask-3)">
+                            <use fill="#071A37" xlink:href="#path-5"></use>
+                            <use fill="url(#radialGradient-4)" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

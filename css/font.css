@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Now-Bold";
+  src: url("../fonts/Now-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Now-Regular";
+  src: url("../fonts/Now-Regular.otf");
+  font-weight: 200;
+}

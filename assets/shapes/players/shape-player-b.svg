@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="14px" viewBox="0 0 23 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="36.4848497%" x2="90.1428223%" y2="65.3766039%" id="linearGradient-1">
+            <stop stop-color="#E50008" offset="0%"></stop>
+            <stop stop-color="#FDEE00" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="8.5" cy="15.5789474" rx="8" ry="3"></ellipse>
+        <filter x="-43.8%" y="-83.3%" width="187.5%" height="333.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SkillCorner_Produit_TailleMax_Live3D_Scoreboard" transform="translate(-374.000000, -222.000000)">
+            <g id="FIELD" transform="translate(74.000000, 92.000000)">
+                <g id="Joueurs" transform="translate(0.000000, 0.268571)">
+                    <g id="OUTILS/player_team_1" transform="translate(303.000000, 119.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
