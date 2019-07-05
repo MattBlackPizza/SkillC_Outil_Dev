@@ -6,7 +6,7 @@ La Timeline fonctionne sur le principe suivant :
 Chaque progress bar est dans une `div`. La valeur de cette progress bar est exprimée avec un principe de classe : 
 Il y'a 5 niveaux de hauteur définis actuellement : 
 
-Pour l'équipe A : `value-05 / value-10 / value-15 / value-20 / value-25`
+Pour l'équipe A : `value-05 / value-10 / value-15 / value-20 / value-25` <br>
 Pour l'équipe B : `value--05 / value--10 / value--15 / value--20 / value--25`
 
 Il suffit de remplacer la classe pour utiliser une valeur de l'équipe, exemple : 
