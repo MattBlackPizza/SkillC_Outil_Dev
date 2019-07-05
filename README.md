@@ -75,7 +75,7 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
 **Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
-Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe : `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
+Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe :<br> `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
 ```html
   <div class="match-sheet-started">
     <ul class="match-sheet-ul">
