@@ -1,13 +1,12 @@
-**Quelques informations...**
+## SkillC_Outil_Dev
 
-
-**Timeline**  / (timeline-data.php)
+**Timeline**  / **(timeline-data.php**)
 
 La Timeline fonctionne sur le principe suivant : 
 Chaque progress bar est dans une `div`. La valeur de cette progress bar est exprimée avec un principe de classe : 
 Il y'a 5 niveaux de hauteur définis actuellement : 
 
-Pour l'équipe A : `value-05 / value-10 / value-15 / value-20 / value-25`<br>
+Pour l'équipe A : `value-05 / value-10 / value-15 / value-20 / value-25`
 Pour l'équipe B : `value--05 / value--10 / value--15 / value--20 / value--25`
 
 Il suffit de remplacer la classe pour utiliser une valeur de l'équipe, exemple : 
@@ -23,7 +22,7 @@ Pour un fait de jeu nécessitant un picto (cartons, but, changement...) la struc
         <img src="../assets/icons/card-yellow.svg" class="icon-time-line-top">
       </div>
       
-**Statistique** / (stats.php)
+**Statistique** / (**stats.php)**
 
 L'écran statistique fonctionne sur le principe suivant :
 Chaque ligne de stats à une `div` stat-bar, qui comprend la valeur (span) et la progress bar (graph). 
@@ -38,16 +37,16 @@ Chaque ligne de stats à une `div` stat-bar, qui comprend la valeur (span) et la
 
 Même principe que pour la timeline, cette valeur s'exprime avec une principe de classe, il suffit de la remplacer  : 
 
-    graph-value-10 
-    graph-value-20 
-    graph-value-30 
-    graph-value-40 
-    graph-value-50 
-    graph-value-60 
-    graph-value-70 
-    graph-value-80 
-    graph-value-90 
-    graph-value-100
+    .graph-value-10 
+    .graph-value-20 
+    .graph-value-30 
+    .graph-value-40 
+    .graph-value-50 
+    .graph-value-60 
+    .graph-value-70 
+    .graph-value-80 
+    .graph-value-90 
+    .graph-value-100
 
 Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en activer un, exemple : 
 
@@ -62,7 +61,7 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
         </div>
       </div>
        
-**Match Sheet** / (match-sheet.php)
+**Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
 Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe : `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
