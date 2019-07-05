@@ -11,6 +11,7 @@
     </div>
   </div>
   <div class="informations-icon">
-    <img src="assets/icons/menu/match-infos.svg">
+    <img class="icon-match-infos" src="assets/icons/menu/match-infos.svg">
+    <img class="icon-match-infos-close hide" src="assets/icons/menu/close-menu.svg">
   </div>
 </nav>
