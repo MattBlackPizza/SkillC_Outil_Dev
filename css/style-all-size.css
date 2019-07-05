@@ -1,7 +1,48 @@
-.show {display: initial !important;}
-.hide {display: none !important;}
-.yellow {background-image: linear-gradient(180deg, #FFC143 0%, #FFAB00 57%) !important;}
-.red {background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;}
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Now-Bold';
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #111213;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.title-section {
+  color: #fff;
+}
+
+.show {
+  display: block !important;
+  -webkit-animation: fadeIn 1s;
+   animation: fadeIn 1s;
+}
+
+.hide {
+  display: none !important;
+  visibility: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.yellow {
+  background-image: linear-gradient(180deg, #FFC143 0%, #FFAB00 57%) !important;
+}
+
+.red {
+  background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;
+}
 
 .color-team-a {
   background-image: linear-gradient(137deg, #E50008 0%, #FDEE00 100%) !important;
