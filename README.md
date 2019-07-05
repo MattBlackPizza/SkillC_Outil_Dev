@@ -1,6 +1,6 @@
 ## SkillC_Outil_Dev
 
-**Timeline**  / **(timeline-data.php**)
+## Timeline
 
 La Timeline fonctionne sur le principe suivant : 
 Chaque progress bar est dans une `div`. La valeur de cette progress bar est exprimée avec un principe de classe : 
@@ -22,7 +22,7 @@ Pour un fait de jeu nécessitant un picto (cartons, but, changement...) la struc
         <img src="../assets/icons/card-yellow.svg" class="icon-time-line-top">
       </div>
       
-**Statistique** / (**stats.php)**
+## Statistique
 
 L'écran statistique fonctionne sur le principe suivant :
 Chaque ligne de stats à une `div` stat-bar, qui comprend la valeur (span) et la progress bar (graph). 
@@ -61,7 +61,7 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
         </div>
       </div>
        
-**Match Sheet** / **(match-sheet.php)**
+## Match Sheet
 
 L'écran Match Sheet fonctionne sur le principe suivant :
 Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe : `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
