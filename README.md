@@ -44,7 +44,7 @@ Chaque ligne de stats à une `div` stat-bar, qui comprend la valeur (span) et la
  </div>
 ```
 
-Même principe que pour la timeline, cette valeur s'exprime avec une principe de classe, il suffit de la remplacer  : 
+Même principe que pour la timeline, cette valeur s'exprime avec un principe de classe, il suffit de la remplacer  : 
 ```css
  graph-value-10 
  graph-value-20 
