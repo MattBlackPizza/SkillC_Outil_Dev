@@ -2,8 +2,7 @@
 
 **Timeline**  / **(timeline-data.php**)
 
-La timeline fonctionne sur le principe suivant : <br>
-Chaque progress bar est dans une `div`. La valeur de cette progress bar est exprimée avec un principe de classe : 
+La timeline fonctionne sur le principe suivant : chaque progress bar est dans une `div`. La valeur de cette progress bar est exprimée avec un principe de classe : 
 Il y'a 5 niveaux de hauteur définis actuellement : 
 
 Pour l'équipe A :  
