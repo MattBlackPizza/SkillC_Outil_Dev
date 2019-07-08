@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <!--  CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-size-l.css">
 	<link rel="stylesheet" type="text/css" href="css/style-all-size.css">
   <!--  CSS -->
 	<!--  FONTS -->
