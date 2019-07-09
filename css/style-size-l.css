@@ -437,6 +437,14 @@ nav {
   color: #FFFFFF;
   text-shadow: 0 2px 3px rgba(0,0,0,0.30);
   text-transform: uppercase;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+  max-width: 50px;
 }
 
 .player-line-up {
