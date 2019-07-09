@@ -1,4 +1,4 @@
-/* Nav */
+/* Stadium View */
 .stadium-size-l {
   background-repeat: no-repeat;
   background-size:cover;
@@ -23,7 +23,9 @@
   width: 500px;
   height: 320px;
 }
+/* Stadium View */
 
+/* Nav */
 nav {
   display: flex;
   justify-content: center;
@@ -740,16 +742,6 @@ nav {
   width: 150px;
 }
 
-/* .notifs-xy-a {
-  bottom: 50%;
-  left: 35%;
-}
-
-.notifs-xy-b {
-  bottom: 25%;
-  left: 35%;
-} */
-
 .icon-notification {
   max-width: 28px;
 }
@@ -847,7 +839,7 @@ nav {
   box-sizing: border-box;
   position: absolute;
   animation-delay: 0.5s;
-  animation-iteration-count: 4;
+  animation-iteration-count: 8;
 }
 
 .alert-xy {
