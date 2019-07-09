@@ -12,6 +12,13 @@
   background-position: -20px -70px;
 }
 
+.stadium-size-l-2d {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('../assets/stadium/stadium-2d-view.png');
+  position: relative;
+}
+
 .size-l {
   width: 500px;
   height: 320px;
@@ -40,6 +47,13 @@ nav {
   margin-right: 15px;
 }
 
+.score-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
 .score-content {
   font-size: 12px;
   font-weight: bold;
@@ -48,8 +62,17 @@ nav {
   align-items: center;
 }
 
+.shape-team-nav-timeline {
+  width: 10px;
+}
+
+.score-content-nav-timeline {
+  margin-bottom: 5px;
+}
+
 .score {
   margin: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .view-icon, .informations-icon {
@@ -171,6 +194,8 @@ nav {
   color: #fff;
   font-size: 12px;
   text-shadow: 0 2px 3px rgba(0,0,0,0.30);
+  position: absolute;
+  bottom: 17px;
 }
 
 .ball-line-up {
@@ -437,6 +462,15 @@ nav {
   color: #FFFFFF;
   text-shadow: 0 2px 3px rgba(0,0,0,0.30);
   text-transform: uppercase;
+  width: 50px;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .player-line-up {
@@ -668,23 +702,57 @@ nav {
 }
 /* Time Line */
 
-/* Notifications */
-.notifications {
-  height: 44px;
-  max-width: 150px;
-  background: rgba(7,26,55,0.80);
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
-  border-radius: 4px;
+/* Notifications*/
+.notifications-content {
+  height: 100px;
+  width: 200px;
   position: absolute;
+  top: 50%;
+  left: 15%;
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-
+  justify-content: space-around;
+  flex-direction: column;
 }
 
-.notifications { right: 100%; transition: 1s; opacity: 0; width: 0px;}
-.notifications.animate { right: 0; opacity: 1; width: 150px;}
+.notifications {
+  height: 44px;
+  max-width: 145px;
+  background: rgba(7,26,55,0.80);
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  right: 100%;
+  transition: 1s;
+  opacity: 0;
+  width: 0px;
+  position: relative;
+  animation-duration: 3s;
+  animation-delay: 2s
+}
+
+.notifications.animate {
+  right: auto;
+  opacity: 1;
+  width: 150px;
+}
+
+/* .notifs-xy-a {
+  bottom: 50%;
+  left: 35%;
+}
+
+.notifs-xy-b {
+  bottom: 25%;
+  left: 35%;
+} */
+
+.icon-notification {
+  max-width: 28px;
+}
 
 .triangle-bg {
   display: block;
@@ -695,16 +763,6 @@ nav {
   left: -3px;
   top: 18px;
   position: absolute;
-}
-
-.notifs-xy-a {
-  bottom: 40%;
-  left: 35%;
-}
-
-.notifs-xy-b {
-  bottom: 30%;
-  left: 35%;
 }
 
 .times-notifs {
@@ -742,6 +800,11 @@ nav {
   text-transform: uppercase;
 }
 
+.notifs-timing {
+  color: #42B760;
+  font-size: 10px;
+}
+
 .notifs-name-player, .notifs-name-team {
   font-family: 'Roboto';
   font-size: 10px;
@@ -772,42 +835,43 @@ nav {
 
 /* Notifications */
 
-/* Alert */
+/* Alert*/
 .alert-box {
-  background: rgba(7,26,55,0.70);
+  height: 44px;
+  max-width: 155px;
+  background: rgba(7,26,55,0.80);
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
-  height: 320px;
-  width: 500px;
-  position: absolute;
-  top: 0;
-  z-index: 10;
+  border-radius: 4px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  animation-delay: 0.5s;
+  animation-iteration-count: 4;
 }
 
-.alert-box-message {
+.alert-xy {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.alert-box {
+  padding: 0px 10px;
+}
+
+.alert-notifs {
+  height: 28px;
+  min-width: 28px;
+  border-radius: 2px;
+  margin-left: 5px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.alert-span-message {
-  font-size: 14px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.alert-span-time {
-  font-size: 12px;
-  color: #42B760;
-  letter-spacing: 0.3px;
-  text-align: center;
-  line-height: 8px;
-  margin-top: 10px;
-}
-/* Alert */
+/* Alert*/
 
 /* Match Infos */
 .match-infos-box {
@@ -844,5 +908,12 @@ nav {
 
 .icon-match-infos-close {
   z-index: 15;
+}
+
+.match-infos-box-message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 /* Match Infos */
