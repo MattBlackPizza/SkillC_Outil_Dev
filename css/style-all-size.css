@@ -40,7 +40,6 @@ section {
     from { opacity: 0; }
       to { opacity: 1; }
 }
-/*--------------------------------------------------------------------------- */
 
 @-webkit-keyframes fadeOut {
     from { opacity: 1; }
@@ -58,14 +57,6 @@ section {
 
 .red {
   background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;
-}
-
-.color-team-a {
-  background-image: linear-gradient(137deg, #E50008 0%, #FDEE00 100%) !important;
-}
-
-.color-team-b {
-  background-image: linear-gradient(147deg, #00FFFD 0%, #00A1FF 100%);
 }
 
 .card-red::after {
@@ -121,4 +112,8 @@ section {
 
 a {
   text-decoration: none;
+}
+
+.shape-color-team-a svg {
+    fill: red;
 }

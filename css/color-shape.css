@@ -1,0 +1,87 @@
+/* Shape Player */
+.shape-goalkeeper-a {
+  fill: white !important;
+  width: 50px;
+}
+
+.shape-goalkeeper-b {
+  fill: white !important;
+  width: 50px;
+}
+
+.shape-color-a {
+  fill: #00a9ff !important;
+  width: 50px;
+}
+
+.shape-color-b {
+  fill: #f38b10 !important;
+  width: 50px;
+}
+
+.shape-color-arbitrator {
+  fill: #111213 !important;
+  width: 50px;
+}
+/* Shape Player */
+
+/* Shape Shirts Line Up */
+.shape-shirt-a {
+  fill: #00a9ff !important;
+  width: 80px;
+}
+
+.shape-shirt-b {
+  fill: #f38b10 !important;
+  width: 80px;
+}
+
+.shape-goalkeeper-shirt-a {
+  fill: #ffffff !important;
+  width: 80px;
+}
+
+.shape-goalkeeper-shirt-b {
+  fill: #ffffff !important;
+  width: 80px;
+}
+/* Shape Shirts Line Up */
+
+/* Notifications */
+.notification-team-a {
+  background-color: #00a9ff;
+}
+
+.notification-team-b {
+  background-color: #f38b10;
+}
+
+.shape-target-notif {
+  width: 18px;
+  fill: #f38b10 !important;
+}
+/* Notifications */
+
+/* Club Circle */
+.shape-club-a {
+  fill: #00a9ff!important;
+  width: 13px;
+}
+
+.shape-club-b {
+  fill: #f38b10 !important;
+  width: 13px;
+}
+/* Club Circle */
+
+/* Stats */
+.graph-value-a {
+  background-color: #00a9ff;
+  right: 0;
+}
+
+.graph-value-b {
+  background-color: #f38b10;
+  left: 0;
+}
+/* Stats */

@@ -16,11 +16,13 @@
         </filter>
     </defs>
     <g id="OutilDeVisualisation_FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="SkillCorner_Produit_TailleMax_Compos" transform="translate(-23.000000, -122.000000)">
-            <g id="OUTILS/player_team_1-Copy-3" transform="translate(10.000000, 124.000000)">
-                <g id="Path-3">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        <g id="SkillCorner_Produit_TailleMax_Lineup" transform="translate(-31.000000, -122.000000)">
+            <g id="Group" transform="translate(18.000000, 20.000000)">
+                <g id="OUTILS/player_team_1-Copy-3" transform="translate(0.000000, 104.000000)">
+                    <g id="Path-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
                 </g>
             </g>
         </g>

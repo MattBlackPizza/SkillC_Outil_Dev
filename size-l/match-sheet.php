@@ -2,7 +2,7 @@
   <div class="match-sheet-content">
     <div class="match-sheet-a">
       <div class="name-team">
-        <img src="../assets/shapes/players/shape-team-a.svg"><h2 class="match-sheet-nameteam-a">Paris fc</h2>
+        <?php include 'shape-club-a.php'; ?><h2 class="match-sheet-nameteam-a">Paris fc</h2>
       </div>
       <div class="match-sheet-flex">
         <div class="match-sheet-started">
@@ -41,7 +41,7 @@
 
     <div class="match-sheet-a">
       <div class="name-team">
-        <img src="../assets/shapes/players/shape-team-b.svg"><h2 class="match-sheet-nameteam-a">RC LENS</h2>
+        <?php include 'shape-club-b.php'; ?><h2 class="match-sheet-nameteam-a">RC LENS</h2>
       </div>
       <div class="match-sheet-flex">
         <div class="match-sheet-started">

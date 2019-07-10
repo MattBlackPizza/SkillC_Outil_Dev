@@ -6,6 +6,7 @@
   <!--  CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style-size-l.css">
 	<link rel="stylesheet" type="text/css" href="css/style-all-size.css">
+	<link rel="stylesheet" type="text/css" href="css/color-shape.css">
   <!--  CSS -->
 	<!--  FONTS -->
 	<link rel="stylesheet" type="text/css" href="css/font.css">
@@ -23,5 +24,6 @@
 <?php include 'size-l.php'; ?>
 
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script-color-team.js"></script>
 </body>
 </html>

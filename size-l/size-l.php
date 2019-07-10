@@ -17,9 +17,9 @@
 </section>
 
 <p class="title-section">Front View</p>
-<!--- Front View -->
+<!--- Nav Classique -->
 <section class="stadium-size-l-front-view size-l size-l-view">
-  <?php include 'nav.php'; ?>
+  <?php include 'nav-timeline.php'; ?>
   <?php include 'menu.php'; ?>
   <?php include 'match-infos.php'; ?>
 </section>
