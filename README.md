@@ -74,7 +74,7 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
 **Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
-Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe :<br> `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
+Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` exemple : 
 ```html
   <div class="match-sheet-started">
     <ul class="match-sheet-ul">
@@ -92,5 +92,10 @@ Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres 
       </ul>
    </div>
 ```
-**Les noms de joueurs ont un caractère max à ne pas dépasser (11).**  
+
+Pour l'option but, la structure est légerement différente, il suffit d'ajouter un span avec une classe `goal` et d'attribuer le nombre de but inscrit. Pour un logique CSS, le span doit toujour avoir une valeur définit (X1 par défaut). 
+
+**Les noms de joueurs ont un caractère max à ne pas dépasser (11), sauf pour l'option goal ou dans ce cas la limite est de 9.**  
 Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
+
+
