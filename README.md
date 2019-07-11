@@ -74,32 +74,13 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
 **Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
-Les joueurs sont listés dans un `ul`, avec des `li`. Pour chaque paramètres (cartons, changement, but) il faut ajouter un span avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` `goal` exemple : 
+Les joueurs sont listés dans un `ul`, avec des `li`. Pour chaque paramètres (cartons, changement, but) il faut ajouter un span avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` `goal`. Les paramètres sont cumulables, il suffit de génèrer plusieurs `span` pour ça exemple : 
 ```html
-        <div class="match-sheet-started">
-          <ul class="match-sheet-ul">
-            <span>Started</span>
-            <li>V. Demarcon…</li>
-            <li>S. Karamoko</li>
-            <li>S. Yohou
-              <span class="picto-match-sheet card-yellow"></span>
-            </li>
-            <li>O. Kanté
-             </li>
-            <li>R. Neya
-              <span class="picto-match-sheet goal">2</span>
-              <span class="picto-match-sheet card-yellow"></span>
-              <span class="picto-match-sheet icon-change"></span>
-            </li>
-            <li>C. Kouamé</li>
-            <li>L. Nomenjan</li>
-            <li>J. Pitroipa</li>
-            <li>J. Lopez
-              <span class="picto-match-sheet card-red"></span>
-            </li>
-            <li>S. Wamangi…</li>
-          </ul>
-        </div>
+ <li>R. Neya
+   <span class="picto-match-sheet goal">2</span>
+   <span class="picto-match-sheet card-yellow"></span>
+   <span class="picto-match-sheet icon-change"></span>
+ </li>
 ```
 
 Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut). 
