@@ -99,7 +99,6 @@ Pour l'option but, la structure est légèrement différente, il suffit d'ajoute
   <li>J. Lopez<span class="goal">X1</span></li>
 ```
 
-**Les noms de joueurs ont un caractère max à ne pas dépasser (11), sauf pour l'option goal ou dans ce cas la limite est de 9.**  
-Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
+**Les noms de joueurs ont un caractère max à ne pas dépasser (11), sauf pour l'option goal ou dans ce cas la limite est de 9.**  Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
 
 
