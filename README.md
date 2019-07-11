@@ -89,8 +89,10 @@ Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut
   <li>J. Lopez<span class="goal">X1</span></li>
 ```
 
-Les noms de joueurs ont un caractère max à ne pas dépasser : 
-- 1 picto = 11 caractères
-- 2 pictos = 10 caractères
-- 1 picto + 1 but = 9 caractères
-- 2 pictos + 1 but = 7 caractères 
+**Les noms de joueurs ont un caractère max à ne pas dépasser :
+
+Sans picto = 12 caractères
+1 picto = 11 caractères
+2 pictos = 10 caractères
+1 picto + 1 but = 9 caractères
+2 pictos + 1 but = 7 caractères 
