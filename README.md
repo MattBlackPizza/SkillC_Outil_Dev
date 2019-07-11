@@ -91,8 +91,8 @@ Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut
 
 **Les noms de joueurs ont un caractère max à ne pas dépasser :**
 
-`Sans picto = 12 caractères<br>
+Sans picto = 12 caractères<br>
 1 picto = 11 caractères<br>
 2 pictos = 10 caractères<br>
 1 picto + 1 but = 9 caractères<br>
-2 pictos + 1 but = 7 caractères<br>`
+2 pictos + 1 but = 7 caractères<br>
