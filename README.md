@@ -1,3 +1,4 @@
+
 ## SkillC_Outil_Dev
 
 **Timeline**  / **(timeline-data.php**)
@@ -84,6 +85,7 @@ Les joueurs sont listés dans un `ul`, avec des `li`. Pour chaque paramètres (c
 ```
 
 Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut). 
+***Le span pour l'icône goal doit toujours être générer au-dessus des autres spans dans la structure HTML.***
 
 ```html
   <li>J. Lopez<span class="goal">X1</span></li>
