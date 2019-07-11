@@ -74,23 +74,25 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
 **Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
-Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe :<br> `picto-change` `picto-goal` `card-yellow` `card-red` exemple : 
+Les joueurs sont listés dans un `ul`, avec des `li`. Pour chaque paramètres (cartons, changement, but) il faut ajouter un span avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` `goal`. Les paramètres sont cumulables, il suffit de génèrer plusieurs `span` pour ça exemple : 
 ```html
-  <div class="match-sheet-started">
-    <ul class="match-sheet-ul">
-       <span>Started</span>
-       <li>V. Demarcon…</li>
-       <li>S. Karamoko</li>
-       <li class="picto-change">S. Yohou</li>
-       <li>O. Kanté</li>
-       <li class="card-yellow">R. Perraud</li>
-       <li>C. Kouamé</li>
-       <li class="card-yellow">L. Nomenjan</li>
-       <li>J. Pitroipa</li>
-       <li class="picto-goal">J. Lopez</li>
-       <li>S. Wamangi…</li>
-      </ul>
-   </div>
+ <li>R. Neya
+   <span class="picto-match-sheet goal">2</span>
+   <span class="picto-match-sheet card-yellow"></span>
+   <span class="picto-match-sheet icon-change"></span>
+ </li>
 ```
-**Les noms de joueurs ont un caractère max à ne pas dépasser (11).**  
-Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
+
+Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut). 
+
+```html
+  <li>J. Lopez<span class="goal">X1</span></li>
+```
+
+**Les noms de joueurs ont un caractère max à ne pas dépasser :**
+
+Sans picto = 12 caractères<br>
+1 picto = 11 caractères<br>
+2 pictos = 10 caractères<br>
+1 picto + 1 but = 9 caractères<br>
+2 pictos + 1 but = 7 caractères<br>
