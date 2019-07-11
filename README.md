@@ -95,8 +95,6 @@ Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres 
 
 Pour l'option but, la structure est légèrement différente, il suffit d'ajouter un span avec une classe `goal` et d'attribuer le nombre de but inscrit. Pour un logique CSS, le span doit toujour avoir une valeur définit (X1 par défaut). 
 
-exemple : 
-
 ```html
   <li>J. Lopez<span class="goal">X1</span></li>
 ```
