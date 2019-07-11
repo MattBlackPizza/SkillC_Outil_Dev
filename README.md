@@ -95,6 +95,12 @@ Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres 
 
 Pour l'option but, la structure est légerement différente, il suffit d'ajouter un span avec une classe `goal` et d'attribuer le nombre de but inscrit. Pour un logique CSS, le span doit toujour avoir une valeur définit (X1 par défaut). 
 
+exemple : 
+
+```html
+  <li>J. Lopez<span class="goal">X1</span></li>
+```
+
 **Les noms de joueurs ont un caractère max à ne pas dépasser (11), sauf pour l'option goal ou dans ce cas la limite est de 9.**  
 Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
 
