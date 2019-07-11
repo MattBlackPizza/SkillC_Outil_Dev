@@ -1,27 +1,42 @@
+/* Box Shadow for Shape */
+.shape-box-shadow {
+}
+/* Box Shadow for Shape */
+
 /* Shape Player */
 .shape-goalkeeper-a {
   fill: white !important;
   width: 50px;
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 }
 
 .shape-goalkeeper-b {
   fill: white !important;
   width: 50px;
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 }
 
 .shape-color-a {
   fill: #00a9ff !important;
   width: 50px;
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 }
 
 .shape-color-b {
   fill: #f38b10 !important;
   width: 50px;
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 }
 
 .shape-color-arbitrator {
   fill: yellow !important;
   width: 50px;
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
 }
 /* Shape Player */
 
@@ -85,3 +100,13 @@
   left: 0;
 }
 /* Stats */
+
+/* TimeLine */
+.value-team-a {
+  background-color: #00a9ff;
+}
+
+.value-team-b {
+  background-color: #f38b10;
+}
+/* TimeLine */

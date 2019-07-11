@@ -59,55 +59,62 @@ section {
   background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;
 }
 
-.card-red::after {
-  content: '';
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: contain;
-  height: 12px;
-  width: 10px;
-  background-image: url('../assets/icons/card-red.svg');
-  margin-left: 5px;
-  position: absolute;
-  bottom: 3px;
+.picto-match-sheet {
+  margin-left: 0.5px;
 }
 
-.card-yellow::after {
+.goal {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  color: #42B760;
+  line-height: 13px;
+  font-weight: 600;
+}
+
+.goal::before {
   content: '';
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
   height: 12px;
-  width: 10px;
+  width: 12px;
+  background-image: url('../assets/icons/icon-goal.svg');
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: right;
+}
+
+.card-yellow {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 12px;
+  width: 12px;
   background-image: url('../assets/icons/card-yellow.svg');
-  margin-left: 5px;
-  position: absolute;
-  bottom: 3px;
+  position: relative;
 }
 
-.picto-goal::after {
+.card-red {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 12px;
+  width: 12px;
+  background-image: url('../assets/icons/card-red.svg');
+}
+
+.icon-change {
   content: '';
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
   height: 14px;
   width: 11px;
-  background-image: url('../assets/icons/icon-goal.svg');
-  margin-left: 5px;
-  margin-top: 2px;
-  position: absolute;
-}
-
-.picto-change::after {
-  content: '';
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: contain;
-  height: 16px;
-  width: 100%;
   background-image: url('../assets/icons/icon-change.svg');
-  margin-left: 5px;
-  position: absolute;
 }
 
 a {
@@ -117,3 +124,5 @@ a {
 .shape-color-team-a svg {
     fill: red;
 }
+
+.picto-match-sheet {}

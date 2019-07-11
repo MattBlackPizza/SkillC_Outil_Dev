@@ -1,4 +1,9 @@
 /* Stadium View */
+.size-l {
+  width: 500px;
+  height: 320px;
+}
+
 .stadium-size-l {
   background-repeat: no-repeat;
   background-size:cover;
@@ -14,14 +19,30 @@
 
 .stadium-size-l-2d {
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: contain;
   background-image: url('../assets/stadium/stadium-2d-view.png');
+  position: relative;
+
+}
+
+.ground-size-l {
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-image: url('../assets/stadium/ground.png');
   position: relative;
 }
 
-.size-l {
-  width: 500px;
-  height: 320px;
+.ground-size-l-front-view {
+  background-image: url('../assets/stadium/ground-front-view.png');
+  position: relative;
+  background-position: -20px -65px;
+}
+
+.ground-size-l-2d {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../assets/stadium/ground-2d-view.png');
+  position: relative;
 }
 /* Stadium View */
 
@@ -206,6 +227,10 @@ nav {
   transform: translateX(-50%);
   top: 48%;
   left: 50%;
+}
+
+.shape-box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
 }
 /* Players */
 
@@ -624,7 +649,6 @@ nav {
 
 .progress-bar {
   width: 2px;
-  background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);
   border-radius: 1px;
   position: absolute;
   top: 50%;
@@ -640,19 +664,19 @@ nav {
 }
 
 /* Value - */
-.value--25 {height: 25%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--20 {height: 20%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--15 {height: 15%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--10 {height: 10%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--05 {height: 05%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
+.value--25 {height: 25%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--20 {height: 20%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--15 {height: 15%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--10 {height: 10%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--05 {height: 05%; transform: translateY(-100%);  transform: rotate(180deg);}
 /* Value - */
 
 /* Value + */
-.value-05 {height: 05%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-10 {height: 10%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-15 {height: 15%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-20 {height: 20%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-25 {height: 25%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
+.value-05 {height: 05%;  transform: translateY(-100%);}
+.value-10 {height: 10%;  transform: translateY(-100%);}
+.value-15 {height: 15%;  transform: translateY(-100%);}
+.value-20 {height: 20%;  transform: translateY(-100%);}
+.value-25 {height: 25%;  transform: translateY(-100%);}
 /* Value + */
 
 .time-line-minutes {
@@ -694,10 +718,10 @@ nav {
 /* Notifications*/
 .notifications-content {
   height: 100px;
-  width: 200px;
+  width: 145px;
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 20%;
   transform: translateY(-50%);
   display: flex;
   align-items: center;
@@ -720,7 +744,42 @@ nav {
   width: 0px;
   position: relative;
   animation-duration: 3s;
-  animation-delay: 2s
+  animation-delay: 2s;
+}
+
+.notification-bottom {
+  position: absolute !important;
+  bottom: -20px !important;
+}
+
+.notification-right > .info-notifs {
+  margin-left: 0px;
+}
+
+.notification-right > .times-notifs {
+  margin-right: 12px;
+}
+
+.notification-right > .triangle-bg {
+  display: block;
+  background-image: url('../assets/shapes/notifications/triangle.svg');
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 3px;
+  left: 100% !important;
+  top: 18px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.notification-right > .shape-notifs {
+  position: absolute;
+  left: 110% !important;
+  top: 11px;
+  -webkit-animation: mover 1.4s infinite  alternate;
+  animation: mover 1.4s infinite  alternate;
+  -webkit-animation-delay: 2s;
+   animation-delay: 2s;
 }
 
 .notifications.animate {

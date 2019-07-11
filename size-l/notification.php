@@ -1,6 +1,6 @@
 <div class="notifications-content">
 
-  <div class="animated delay-2s fadeIn notifications notifs-xy-a">
+  <div class="animated delay-2s fadeIn notifications">
     <div class="times-notifs notification-team-a">
       <span>75'</span>
     </div>
@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <div class="notifications notifs-xy-b">
+  <div class="notifications">
     <div class="triangle-bg"></div>
     <div class="shape-notifs">
       <?php include 'target-notif.php'; ?>

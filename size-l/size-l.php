@@ -78,3 +78,28 @@
   <?php include 'match-infos.php'; ?>
   <?php include 'menu.php'; ?>
 </section>
+
+<p class="title-section">Ground</p>
+<!--- Ground -->
+<section class="animated ground-size-l size-l">
+  <?php include 'nav.php'; ?>
+  <?php include 'player-line-up-content.php'; ?>
+  <?php include 'match-infos.php'; ?>
+  <?php include 'menu.php'; ?>
+</section>
+
+<p class="title-section">Ground 2D</p>
+<!--- Ground 2D View -->
+<section class="animated ground-size-l-2d size-l">
+  <?php include 'nav.php'; ?>
+  <?php include 'match-infos.php'; ?>
+  <?php include 'menu.php'; ?>
+</section>
+
+<p class="title-section">Ground Front View</p>
+<!--- Ground Front View -->
+<section class="animated ground-size-l-front-view size-l">
+  <?php include 'nav.php'; ?>
+  <?php include 'match-infos.php'; ?>
+  <?php include 'menu.php'; ?>
+</section>
