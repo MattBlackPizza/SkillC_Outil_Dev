@@ -74,31 +74,42 @@ Pour les cartons, il suffit d'ajouter la classe `red` ou `yellow` pour en active
 **Match Sheet** / **(match-sheet.php)**
 
 L'écran Match Sheet fonctionne sur le principe suivant :
-Les joueurs sont listés dans un `ul`, les `li` peuvent prendre des paramètres (cartons, changement, but) avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` exemple : 
+Les joueurs sont listés dans un `ul`, avec des `li`. Pour chaque paramètres (cartons, changement, but) il faut ajouter un span avec un principe de classe :<br> `picto-change` `card-yellow` `card-red` `goal` exemple : 
 ```html
-  <div class="match-sheet-started">
-    <ul class="match-sheet-ul">
-       <span>Started</span>
-       <li>V. Demarcon…</li>
-       <li>S. Karamoko</li>
-       <li class="picto-change">S. Yohou</li>
-       <li>O. Kanté</li>
-       <li class="card-yellow">R. Perraud</li>
-       <li>C. Kouamé</li>
-       <li class="card-yellow">L. Nomenjan</li>
-       <li>J. Pitroipa</li>
-       <li class="picto-goal">J. Lopez</li>
-       <li>S. Wamangi…</li>
-      </ul>
-   </div>
+        <div class="match-sheet-started">
+          <ul class="match-sheet-ul">
+            <span>Started</span>
+            <li>V. Demarcon…</li>
+            <li>S. Karamoko</li>
+            <li>S. Yohou
+              <span class="picto-match-sheet card-yellow"></span>
+            </li>
+            <li>O. Kanté
+             </li>
+            <li>R. Neya
+              <span class="picto-match-sheet goal">2</span>
+              <span class="picto-match-sheet card-yellow"></span>
+              <span class="picto-match-sheet icon-change"></span>
+            </li>
+            <li>C. Kouamé</li>
+            <li>L. Nomenjan</li>
+            <li>J. Pitroipa</li>
+            <li>J. Lopez
+              <span class="picto-match-sheet card-red"></span>
+            </li>
+            <li>S. Wamangi…</li>
+          </ul>
+        </div>
 ```
 
-Pour l'option but, la structure est légèrement différente, il suffit d'ajouter un span avec une classe `goal` et d'attribuer le nombre de but inscrit. Pour un logique CSS, le span doit toujour avoir une valeur définit (X1 par défaut). 
+Pour l'option but, le span doit toujour avoir une valeur définit (1 par défaut). 
 
 ```html
   <li>J. Lopez<span class="goal">X1</span></li>
 ```
 
-**Les noms de joueurs ont un caractère max à ne pas dépasser (11), sauf pour l'option goal ou dans ce cas la limite est de 9.**  Si le nombre de caractère est supérieur, le nom prendra automatiquement '...' à la fin.
-
-
+Les noms de joueurs ont un caractère max à ne pas dépasser : 
+- 1 Pitco = 11 caractères
+- 2 Picto = 10 caractères
+- 1 picto + 1 but = 9 caractères
+- 2 picto + 1 but = 7 caractères 
