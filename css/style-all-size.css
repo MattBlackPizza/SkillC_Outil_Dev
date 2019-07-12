@@ -26,6 +26,11 @@ section {
   visibility: hidden;
 }
 
+.fadeOut {
+  -webkit-animation: fadeOut 0.5s;
+   animation: fadeOut 0.5s;
+}
+
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
@@ -36,6 +41,16 @@ section {
       to { opacity: 1; }
 }
 
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
 .yellow {
   background-image: linear-gradient(180deg, #FFC143 0%, #FFAB00 57%) !important;
 }
@@ -44,65 +59,70 @@ section {
   background-image: linear-gradient(180deg, #FF2626 0%, #980000 100%) !important;
 }
 
-.color-team-a {
-  background-image: linear-gradient(137deg, #E50008 0%, #FDEE00 100%) !important;
+.picto-match-sheet {
+  margin-left: 0.5px;
 }
 
-.color-team-b {
-  background-image: linear-gradient(147deg, #00FFFD 0%, #00A1FF 100%);
+.goal {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  color: #42B760;
+  line-height: 13px;
+  font-weight: 600;
 }
 
-.card-red::after {
+.goal::before {
   content: '';
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
   height: 12px;
-  width: 10px;
-  background-image: url('../assets/icons/card-red.svg');
-  margin-left: 5px;
-  position: absolute;
-  bottom: 3px;
-}
-
-.card-yellow::after {
-  content: '';
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: contain;
-  height: 12px;
-  width: 10px;
-  background-image: url('../assets/icons/card-yellow.svg');
-  margin-left: 5px;
-  position: absolute;
-  bottom: 3px;
-}
-
-.picto-goal::after {
-  content: '';
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: contain;
-  height: 14px;
-  width: 11px;
+  width: 12px;
   background-image: url('../assets/icons/icon-goal.svg');
-  margin-left: 5px;
-  margin-top: 2px;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: right;
 }
 
-.picto-change::after {
+.card-yellow {
   content: '';
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
-  height: 16px;
-  width: 100%;
+  height: 10px;
+  width: 8px;
+  background-image: url('../assets/icons/card-yellow.svg');
+  position: relative;
+}
+
+.card-red {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 10px;
+  width: 8px;
+  background-image: url('../assets/icons/card-red.svg');
+}
+
+.icon-change {
+  content: '';
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  height: 10px;
+  width: 8px;
   background-image: url('../assets/icons/icon-change.svg');
-  margin-left: 5px;
-  position: absolute;
 }
 
 a {
   text-decoration: none;
 }
+
+.shape-color-team-a svg {
+    fill: red;
+}
+
+.picto-match-sheet {}

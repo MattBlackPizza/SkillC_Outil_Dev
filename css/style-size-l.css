@@ -1,4 +1,9 @@
-/* Nav */
+/* Stadium View */
+.size-l {
+  width: 500px;
+  height: 320px;
+}
+
 .stadium-size-l {
   background-repeat: no-repeat;
   background-size:cover;
@@ -9,14 +14,39 @@
 .stadium-size-l-front-view {
   background-image: url('../assets/stadium/stadium-front-view.png');
   position: relative;
-  background-position: -20px -70px;
+  background-position: -20px -40px;
 }
 
-.size-l {
-  width: 500px;
-  height: 320px;
+.stadium-size-l-2d {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../assets/stadium/stadium-2d-view.png');
+  position: relative;
+
 }
 
+.ground-size-l {
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-image: url('../assets/stadium/ground.png');
+  position: relative;
+}
+
+.ground-size-l-front-view {
+  background-image: url('../assets/stadium/ground-front-view.png');
+  position: relative;
+  background-position: -20px -65px;
+}
+
+.ground-size-l-2d {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../assets/stadium/ground-2d-view.png');
+  position: relative;
+}
+/* Stadium View */
+
+/* Nav */
 nav {
   display: flex;
   justify-content: center;
@@ -40,6 +70,13 @@ nav {
   margin-right: 15px;
 }
 
+.score-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
 .score-content {
   font-size: 12px;
   font-weight: bold;
@@ -48,8 +85,17 @@ nav {
   align-items: center;
 }
 
+.shape-team-nav-timeline {
+  width: 10px;
+}
+
+.score-content-nav-timeline {
+  margin-bottom: 5px;
+}
+
 .score {
   margin: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .view-icon, .informations-icon {
@@ -141,25 +187,25 @@ nav {
 
 /* Team A */
 .player-team-a {
-  top: 44%;
-  left: 30%;
+  top: 47%;
+  left: 38%;
 }
 
 .goal-team-a {
-  top: 44%;
-  right: 13%;
+  top: 47%;
+  right: 7%;
 }
 /* Team A */
 
 /* Team B */
 .player-team-b {
-  top: 44%;
-  left: 70%;
+  top: 47%;
+  right: 28%;
 }
 
 .goal-team-b {
-  top: 44%;
-  left: 16%;
+  top: 47%;
+  left: 17%;
 }
 /* Team B */
 .arbitrator {
@@ -171,6 +217,8 @@ nav {
   color: #fff;
   font-size: 12px;
   text-shadow: 0 2px 3px rgba(0,0,0,0.30);
+  position: absolute;
+  bottom: 13px;
 }
 
 .ball-line-up {
@@ -179,6 +227,10 @@ nav {
   transform: translateX(-50%);
   top: 48%;
   left: 50%;
+}
+
+.shape-box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
 }
 /* Players */
 
@@ -238,7 +290,6 @@ nav {
   position: absolute;
 }
 
-
 .graph-value-10 {width: 10%;}
 .graph-value-20 {width: 20%;}
 .graph-value-30 {width: 30%;}
@@ -249,16 +300,6 @@ nav {
 .graph-value-80 {width: 80%;}
 .graph-value-90 {width: 90%;}
 .graph-value-100 {width: 100%;}
-
-.graph-value-a {
-  background-image: linear-gradient(90deg, #00A6E1 0%, #0077C0 100%);
-  right: 0;
-}
-
-.graph-value-b {
-  background-image: linear-gradient(90deg, #E50008 0%, #FDEE00 100%);
-  left: 0;
-}
 
 .stats-ul {
   text-align: center;
@@ -414,12 +455,10 @@ nav {
   position: absolute;
   width: 100%;
   height: 100%;
-  right: -25px;
+  right: -75px;
 }
 .line-up-player-content {
   position: relative;
-  max-width: 25px;
-  max-height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -587,17 +626,18 @@ nav {
   background-image: url('../assets/shapes/timeline/timeline-background.svg');
   background-position: left;
   background-repeat: no-repeat;
-  max-width: 290px;
+  max-width: 300px;
   height: 50px;
   display: flex;
   margin-top: 10px;
   width: 100%;
   background-blend-mode: overlay;
+  background-size: cover;
   position: relative;
 }
 
 .progress-bar-content {
-  width: 2px;
+  width: 1px;
   height: 100%;
   position: relative;
   margin-right: 4px;
@@ -609,7 +649,6 @@ nav {
 
 .progress-bar {
   width: 2px;
-  background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);
   border-radius: 1px;
   position: absolute;
   top: 50%;
@@ -625,23 +664,23 @@ nav {
 }
 
 /* Value - */
-.value--25 {height: 25%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--20 {height: 20%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--15 {height: 15%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--10 {height: 10%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
-.value--05 {height: 05%; transform: translateY(-100%); background-image: linear-gradient(0deg, rgba(229,0,8,0.00) 0%, #E50008 11%, #FDEE00 100%);  transform: rotate(180deg);}
+.value--25 {height: 25%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--20 {height: 20%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--15 {height: 15%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--10 {height: 10%; transform: translateY(-100%);  transform: rotate(180deg);}
+.value--05 {height: 05%; transform: translateY(-100%);  transform: rotate(180deg);}
 /* Value - */
 
 /* Value + */
-.value-05 {height: 05%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-10 {height: 10%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-15 {height: 15%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-20 {height: 20%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
-.value-25 {height: 25%;  transform: translateY(-100%); background-image: linear-gradient(180deg, #00A6E1 0%, #0077C0 65%, rgba(0,119,192,0.00) 100%);}
+.value-05 {height: 05%;  transform: translateY(-100%);}
+.value-10 {height: 10%;  transform: translateY(-100%);}
+.value-15 {height: 15%;  transform: translateY(-100%);}
+.value-20 {height: 20%;  transform: translateY(-100%);}
+.value-25 {height: 25%;  transform: translateY(-100%);}
 /* Value + */
 
 .time-line-minutes {
-  width: 290px;
+  width: 300px;
   justify-content: space-between;
   display: flex;
   margin-top: -4px;
@@ -676,23 +715,82 @@ nav {
 }
 /* Time Line */
 
-/* Notifications */
-.notifications {
-  height: 44px;
-  max-width: 150px;
-  background: rgba(7,26,55,0.80);
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
-  border-radius: 4px;
+/* Notifications*/
+.notifications-content {
+  height: 100px;
+  width: 145px;
   position: absolute;
+  top: 50%;
+  left: 20%;
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-
+  justify-content: space-around;
+  flex-direction: column;
 }
 
-.notifications { right: 100%; transition: 1s; opacity: 0; width: 0px;}
-.notifications.animate { right: 0; opacity: 1; width: 150px;}
+.notifications {
+  height: 44px;
+  max-width: 145px;
+  background: rgba(7,26,55,0.80);
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  right: 100%;
+  transition: 1s;
+  opacity: 0;
+  width: 0px;
+  position: relative;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.notification-bottom {
+  position: absolute !important;
+  bottom: -20px !important;
+}
+
+.notification-right > .info-notifs {
+  margin-left: 0px;
+}
+
+.notification-right > .times-notifs {
+  margin-right: 12px;
+}
+
+.notification-right > .triangle-bg {
+  display: block;
+  background-image: url('../assets/shapes/notifications/triangle.svg');
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 3px;
+  left: 100% !important;
+  top: 18px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.notification-right > .shape-notifs {
+  position: absolute;
+  left: 110% !important;
+  top: 11px;
+  -webkit-animation: mover 1.4s infinite  alternate;
+  animation: mover 1.4s infinite  alternate;
+  -webkit-animation-delay: 2s;
+   animation-delay: 2s;
+}
+
+.notifications.animate {
+  right: auto;
+  opacity: 1;
+  width: 150px;
+}
+
+.icon-notification {
+  max-width: 28px;
+}
 
 .triangle-bg {
   display: block;
@@ -703,16 +801,6 @@ nav {
   left: -3px;
   top: 18px;
   position: absolute;
-}
-
-.notifs-xy-a {
-  bottom: 40%;
-  left: 35%;
-}
-
-.notifs-xy-b {
-  bottom: 30%;
-  left: 35%;
 }
 
 .times-notifs {
@@ -750,6 +838,11 @@ nav {
   text-transform: uppercase;
 }
 
+.notifs-timing {
+  color: #42B760;
+  font-size: 10px;
+}
+
 .notifs-name-player, .notifs-name-team {
   font-family: 'Roboto';
   font-size: 10px;
@@ -780,42 +873,43 @@ nav {
 
 /* Notifications */
 
-/* Alert */
+/* Alert*/
 .alert-box {
-  background: rgba(7,26,55,0.70);
+  height: 44px;
+  max-width: 155px;
+  background: rgba(7,26,55,0.80);
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
-  height: 320px;
-  width: 500px;
-  position: absolute;
-  top: 0;
-  z-index: 10;
+  border-radius: 4px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  animation-delay: 0.5s;
+  animation-iteration-count: 8;
 }
 
-.alert-box-message {
+.alert-xy {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.alert-box {
+  padding: 0px 10px;
+}
+
+.alert-notifs {
+  height: 28px;
+  min-width: 28px;
+  border-radius: 2px;
+  margin-left: 5px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.alert-span-message {
-  font-size: 14px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.alert-span-time {
-  font-size: 12px;
-  color: #42B760;
-  letter-spacing: 0.3px;
-  text-align: center;
-  line-height: 8px;
-  margin-top: 10px;
-}
-/* Alert */
+/* Alert*/
 
 /* Match Infos */
 .match-infos-box {
@@ -852,5 +946,12 @@ nav {
 
 .icon-match-infos-close {
   z-index: 15;
+}
+
+.match-infos-box-message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 /* Match Infos */
