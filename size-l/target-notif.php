@@ -1,4 +1,4 @@
-<svg class="shape-target-notif" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16.8 19" xml:space="preserve">
+<svg class="shape-target-notif animated delay-1s fadeIn" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16.8 19" xml:space="preserve">
 <g>
 	<defs>
 		<path id="SVGID_1_" d="M3,2.9c1.4-1.3,3.4-2.1,5.5-2.1s4,0.8,5.5,2.1c1.4,1.3,2.3,3.1,2.3,5.1c0,3.8-4.1,7.8-7.3,10.1H8
